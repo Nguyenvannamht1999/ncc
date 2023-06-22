@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+
+.container-fluid{
+   padding: 10px 10%;
+}
+ul li {
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+
+}
+.d-flex .nav {
+  width: 200px;
+
+  background-color: #000;
+  color: #929292;
+}
+.d-flex .nav ul li {
+  padding: 15px;
+  border-bottom: 1px solid #3a3a3a;
+}
+.d-flex .nav ul li:hover {
+  color: #fff;
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+.d-flex .content{
+   width: 100%;
+   
+}
+.d-flex .content .header{
+   text-align: center;
+}
+.d-flex .content .header img{
+   width: 20%;
+}
+.d-flex .content .des{
+text-align: center;
+background-color: #e0e0e0;
+padding: 50px 15%;
+margin: 20px 0px;
+}
+.d-flex .content .des h4{
+  margin-bottom: 10px;
+}
+.d-flex .content .item ul{
+   display: flex;
+   column-gap: 40px;
+   justify-content: space-around;
+}
+.d-flex .content .item ul li img{
+float: left;
+margin-right: 10px;
+}
+.d-flex .content .item ul li h3{
+margin: 20px 0px;
+}
+
+.content .footer{
+   border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+ 
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+   .d-flex .content .item ul{
+      display: flex;
+      flex-direction: column;
+   }
+   .d-flex .content .header img{
+      width: 180px;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
